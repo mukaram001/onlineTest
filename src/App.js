@@ -114,6 +114,7 @@ function App() {
         <h1>{company.charAt(0).toUpperCase() + company.slice(1)} Dashboard</h1>
         <Logo company={company} />
         <OrderTable orders={orders} />
+        
       </div>
     </Router>
   );
